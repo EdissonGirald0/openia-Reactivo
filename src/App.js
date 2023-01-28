@@ -53,7 +53,7 @@ function App() {
         disabled={loading || prompt.length === 0}
         className="btn btn-primary"
         >
-          {loading ? "Generando respuesta....": "Generar Respuesta"}
+          {loading ? "Generando respuesta....": "Click para Respuesta"}
           </button>
         <div className="result">{result}</div>
         <nav class="navbar fixed-bottom bg-body-tertiary">
