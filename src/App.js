@@ -1,7 +1,9 @@
+import { inject } from "@vercel/analytics"
 import './App.css';
 import{useState} from "react"
 import {Configuration, OpenAIApi} from "openai"
 function App() {
+  inject();
   const configuration = new Configuration({
     apiKey: process.env.REACT_APP_OPENAI_API_KEY,
   });
