@@ -33,7 +33,7 @@ function App() {
  
  return (
   <main className="container-fluid">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary bg-primary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       
       <h2>
@@ -47,7 +47,7 @@ function App() {
         type="text"
         value={prompt}
         onChange={(e) => setPrompt(e.target.value)}
-        placeholder="Pregunte mi Perre..."
+        placeholder="Pregunte amigo..."
         className="textarea"
       ></textarea>
       <button
@@ -58,11 +58,9 @@ function App() {
           {loading ? "Generando respuesta....": "Click para Respuesta"}
           </button>
         <div className="result">{result}</div>
-        <nav class="navbar fixed-bottom bg-body-tertiary">
-      <div class="container-fluid">
-         <h1 class="navbar-brand" href="#">No le hago la tarea pero puedo ayudar ;)</h1>
-      </div>
-</nav>
+        <nav class="textcent navbar fixed-bottom">
+         <h3 class="navbar-brand" href="#">	<b>&copy; Edisson Giraldo </b> and power by <b> openAI </b>;)</h3>
+      </nav>
   </main>
 )
 };

@@ -1,19 +1,20 @@
 html {
   background-size: 100%;
-  background-color: #2629FF;
+  background-color: #219ebc;
 }
 main.container-fluid {
-  background-color: #57B339;
+  background-color: #8ecae6;
   
 }
 nav.navbar {
   text-align: center;
+  background-color: #023047;
 }
 textarea.textarea {
   height: auto;
   width: 100%;
   margin-top: 0.85rem;
-  background-color: #8FFF6B;
+  background-color: #fb8500;
 }
 button.btn {
   height: auto;
@@ -28,4 +29,9 @@ div.result {
 }
 h2 {
   color: #ffffff;
+}
+nav.textcent{
+  justify-content: center;
+  text-align: center;
+  background-color: #023047;
 }
