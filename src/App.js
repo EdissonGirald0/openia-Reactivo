@@ -17,7 +17,7 @@ function App() {
     setLoading(true);
     try {
     const response = await openai.createCompletion( {
-      model: "text-davinci-003",
+      model: "gpt-3.5-turbo",
       prompt: prompt,
       temperature: 0.5,
       max_tokens: 1000,
